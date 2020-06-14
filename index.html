@@ -1,630 +1,409 @@
 <!DOCTYPE html>
-<html lang="es">
-
+<html>
 <head>
+  
+
   <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Plantilla</title>
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="bower_components/Ionicons/css/ionicons.min.css">
+<link rel="stylesheet" href="dist/css/AdminLTE.min.css">
+<link rel="stylesheet" href="dist/css/skins/_all-skins.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<!-- Bootstrap 3.3.7 -->
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script></head>
+<style>
+  a{
+    text-decoration: none;
+  }
+  a:hover{
+    text-decoration: none;
+  }
+  a:transition{
+    text-decoration: none;
+  }
+  .margen_tabla{
+    border-bottom:1px solid #D7DBDD;
+  }
+</style>
+<body class="hold-transition skin-blue sidebar-mini">
+<!-- Site wrapper -->
+<div class="wrapper">
 
-  <title>Team Medicina FESI</title>
-  <meta content="" name="descriptison">
-  <meta content="" name="keywords">
+  <header class="main-header">
+    <!-- Logo -->
+    <a href="index2.html" class="logo">
+      <!-- mini logo for sidebar mini 50x50 pixels -->
+      <span class="logo-mini"><b>A</b>LT</span>
+      <!-- logo for regular state and mobile devices -->
+      <span class="logo-lg"><b>Admin</b>LTE</span>
+    </a>
+    <!-- Header Navbar: style can be found in header.less -->
+    <nav class="navbar navbar-static-top">
+      <!-- Sidebar toggle button-->
+      <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
 
-  <!-- Facebook Opengraph integration: https://developers.facebook.com/docs/sharing/opengraph -->
-  <meta property="og:title" content="">
-  <meta property="og:image" content="">
-  <meta property="og:url" content="">
-  <meta property="og:site_name" content="">
-  <meta property="og:description" content="">
-
-  <!-- Twitter Cards integration: https://dev.twitter.com/cards/  -->
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="">
-  <meta name="twitter:title" content="">
-  <meta name="twitter:description" content="">
-  <meta name="twitter:image" content="">
-
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700|Roboto:400,900" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
-  <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: Bell - v2.0.0
-  * Template URL: https://bootstrapmade.com/bell-free-bootstrap-4-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
-</head>
-
-<body>
-
-  <!-- ======= Hero Section ======= -->
-  <section class="hero">
-    <div class="container text-center">
-      <div class="row">
-        <div class="col-md-12">
-          <p class="hero-brand" title="Home" style="color: white;font-size:1.3em"><strong>Convivencia Estudiantil
-            <br><a href="https://www.youtube.com/channel/UC6EloV208Qpxc8rG_Mu76Lg" target="_blank">Visita nuestro canal en Youtube</a></strong></p>
-          <br>
-          
-        </div>
-      </div>
-
-      <div class="col-md-12">
-        <h1>
-            Team Medicina FESI
-        </h1>
-
-        <p class="tagline">
-            Proximo Taller: Introducción a la Embriología Humana. 
-            <br> Inicio: Sábado 25 de Abril
-        </p>
-        <a class="btn btn-full" href="https://forms.gle/rQz8x7croN7bJ1Uv8" target="_blank"> Link de Prerregistro</a>
-      </div>
-    </div>
-
-  </section>
-
-  <!-- ======= Header ======= -->
-  <header id="header">
-    <div class="container">
-
-      <div id="logo" class="pull-left">
-        <a href="index.html"></a>
-        <!-- Uncomment below if you prefer to use a text image -->
-        <!--<h1><a href="#hero">Bell</a></h1>-->
-      </div>
-
-      <nav id="nav-menu-container">
-        <ul class="nav-menu">
-          <li><a href="#about">Embriología</a></li>
-          <li><a href="#features">Blog</a></li>
-          <!--<li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#team">Team</a></li>
-          <li class="menu-has-children"><a href="">Drop Down</a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="menu-has-children"><a href="#">Drop Down 2</a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
+      <div class="navbar-custom-menu">
+        <ul class="nav navbar-nav">
+          <!-- Messages: style can be found in dropdown.less-->
+          <li class="dropdown messages-menu">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <i class="fa fa-envelope-o"></i>
+              <span class="label label-success">4</span>
+            </a>
+            <ul class="dropdown-menu">
+              <li class="header">You have 4 messages</li>
+              <li>
+                <!-- inner menu: contains the actual data -->
+                <ul class="menu">
+                  <li><!-- start message -->
+                    <a href="#">
+                      <div class="pull-left">
+                        <img src="iconos/iconomedicina.png" class="img-circle" alt="User Image">
+                      </div>
+                      <h4>
+                        Support Team
+                        <small><i class="fa fa-clock-o"></i> 5 mins</small>
+                      </h4>
+                      <p>Why not buy a new awesome theme?</p>
+                    </a>
+                  </li>
+                  <!-- end message -->
                 </ul>
               </li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-              <li><a href="#">Drop Down 5</a></li>
+              <li class="footer"><a href="#">See All Messages</a></li>
             </ul>
-          </li>-->
-          <li><a href="#contact">Contacto</a></li>
+          </li>
+          <!-- Notifications: style can be found in dropdown.less -->
+          <li class="dropdown notifications-menu">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <i class="fa fa-bell-o"></i>
+              <span class="label label-warning">10</span>
+            </a>
+            <ul class="dropdown-menu">
+              <li class="header">You have 10 notifications</li>
+              <li>
+                <!-- inner menu: contains the actual data -->
+                <ul class="menu">
+                  <li>
+                    <a href="#">
+                      <i class="fa fa-users text-aqua"></i> 5 new members joined today
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="footer"><a href="#">View all</a></li>
+            </ul>
+          </li>
+          <!-- Tasks: style can be found in dropdown.less -->
+          <li class="dropdown tasks-menu">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <i class="fa fa-flag-o"></i>
+              <span class="label label-danger">9</span>
+            </a>
+            <ul class="dropdown-menu">
+              <li class="header">You have 9 tasks</li>
+              <li>
+                <!-- inner menu: contains the actual data -->
+                <ul class="menu">
+                  <li><!-- Task item -->
+                    <a href="#">
+                      <h3>
+                        Design some buttons
+                        <small class="pull-right">20%</small>
+                      </h3>
+                      <div class="progress xs">
+                        <div class="progress-bar progress-bar-aqua" style="width: 20%" role="progressbar"
+                             aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                          <span class="sr-only">20% Complete</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <!-- end task item -->
+                </ul>
+              </li>
+              <li class="footer">
+                <a href="#">View all tasks</a>
+              </li>
+            </ul>
+          </li>
+          <!-- User Account: style can be found in dropdown.less -->
+          <li class="dropdown user user-menu">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <img src="iconos/iconomedicina.png" class="user-image" alt="User Image">
+              <span class="hidden-xs">Guillermo</span>
+            </a>
+            <ul class="dropdown-menu">
+              <!-- User image -->
+              <li class="user-header">
+                <img src="iconos/iconomedicina.png" class="img-circle" alt="User Image">
+
+                <p>
+                  Guillermo                </p>
+              </li>
+              <!-- Menu Body -->
+              <li class="user-body">
+                <div class="row">
+                  <div class="col-xs-4 text-center">
+                    <a href="#">Followers</a>
+                  </div>
+                  <div class="col-xs-4 text-center">
+                    <a href="#">Sales</a>
+                  </div>
+                  <div class="col-xs-4 text-center">
+                    <a href="#">Friends</a>
+                  </div>
+                </div>
+                <!-- /.row -->
+              </li>
+              <!-- Menu Footer-->
+              <li class="user-footer">
+                <div class="pull-left">
+                  <a href="#" class="btn btn-default btn-flat">Profile</a>
+                </div>
+                <div class="pull-right">
+                  <a href="logout.php" class="btn btn-default btn-flat">Sign out</a>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <!-- Control Sidebar Toggle Button -->
+          <li>
+            <a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a>
+          </li>
         </ul>
-      </nav>
-      <!-- #nav-menu-container -->
+      </div>
+    </nav>
+  </header>
+  <!-- =============================================== -->
 
-      <nav class="nav social-nav pull-right d-none d-lg-inline">
-        <!--
-          <a href="#"><i class="fa fa-twitter"></i></a>
-          <a href="#"><i class="fa fa-envelope"></i></a>
-        --> 
-        <a href="#"><i class="fa fa-facebook"></i></a> 
-        <a href="#"><i class="fa fa-youtube"></i></a> 
+  <!-- Left side column. contains the sidebar -->
+    <aside class="main-sidebar">
+    <!-- sidebar: style can be found in sidebar.less -->
+    <section class="sidebar">
+      <!-- Sidebar user panel -->
+      <div class="user-panel">
+        <div class="pull-left image">
+          <img src="iconos/iconomedicina.png" class="img-circle" alt="User Image">
+        </div>
+        <div class="pull-left info">
+          <p>Guillermo</p>
+          <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+        </div>
+      </div>
+      <!-- search form -->
+      <form action="#" method="get" class="sidebar-form">
+        <div class="input-group">
+          <input type="text" name="q" class="form-control" placeholder="Buscar...">
+          <span class="input-group-btn">
+                <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i>
+                </button>
+          </span>
+        </div>
+      </form>
+      <!-- /.search form -->
+      <!-- sidebar menu: : style can be found in sidebar.less -->
+      <ul class="sidebar-menu" data-widget="tree">
+        <li class="header">NAVEGACIÓN PRINCIPAL</li>
         
-      </nav>
+        <li class="treeview">
+          <a href="#">
+            <i class="fa fa-dashboard"></i> <span>Padecimientos</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="?principal=listado_padecimientos"><i class="fa fa-circle-o"></i> Listado</a></li>
+            <li><a href="?principal=agregar_padecimiento"><i class="fa fa-circle-o"></i> Agregar Padecimiento</a></li>
+          </ul>
+        </li>
+
+        <li class="treeview">
+          <a href="#">
+            <i class="fa fa-dashboard"></i> <span>Mis Fuentes</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="?principal=listado_padecimientos"><i class="fa fa-circle-o"></i> Listado</a></li>
+            <li><a href="index2.html"><i class="fa fa-circle-o"></i> Agregar Fuente</a></li>
+          </ul>
+        </li>
+
+        <li class="treeview">
+          <a href="#">
+            <i class="fa fa-dashboard"></i> <span>Mis Libros</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="index.html"><i class="fa fa-circle-o"></i> Listado</a></li>
+            <li><a href="index2.html"><i class="fa fa-circle-o"></i> Agregar Libro</a></li>
+          </ul>
+        </li>
+
+        <li class="treeview">
+          <a href="#">
+            <i class="fa fa-dashboard"></i> <span>Journals</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="index.html"><i class="fa fa-circle-o"></i> Listado</a></li>
+            <li><a href="index2.html"><i class="fa fa-circle-o"></i> Agregar Libro</a></li>
+          </ul>
+        </li>
+
+        
+        <li><a href="https://adminlte.io/docs"><i class="fa fa-book"></i> <span>Documentation</span></a></li>
+        <li class="header">LABELS</li>
+        <li><a href="#"><i class="fa fa-circle-o text-red"></i> <span>Contacto</span></a></li>
+        <li><a href="#"><i class="fa fa-circle-o text-yellow"></i> <span>Social</span></a></li>
+        <li><a href="#"><i class="fa fa-circle-o text-aqua"></i> <span>Information</span></a></li>
+      </ul>
+    </section>
+    <!-- /.sidebar -->
+  </aside>
+
+  <!-- =============================================== -->
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    
+    <section class="content">
+	<div class="row">
+		<div class="col-md-11">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6">
+			<div class="btn-group" role="group">
+				<div class="btn-group" role="group">
+				    <button type="button" class="btn btn-default" style="background-color: white">Todos</button>
+				    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: white">
+				      Sistema
+				      <span class="caret"></span>
+				    </button>
+				    <ul class="dropdown-menu">
+				      	<li><a>Sistema Nervioso</a></li><li><a>Sistema Cardiovascular</a></li><li><a>Sistema Respiratorio</a></li><li><a>Sistema Urinario</a></li><li><a>Sistema Digestivo</a></li><li><a>Sistema Reproductor Femenino</a></li><li><a>Sistema Reproductor Masculino</a></li><li><a>Sistema Hemático</a></li><li><a>Sistema Inmunológico</a></li><li><a>Sistema Tegumentario</a></li><li><a>Sistema OMA</a></li><li><a>Sistema Endocrino</a></li>				    </ul>
+				</div>
+				<div class="btn-group" role="group">
+				    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: white">
+				      Especialidad &nbsp;
+				      <span class="caret"></span>
+				    </button>
+				    <ul class="dropdown-menu">
+				      	<li><a>Neurología</a></li><li><a>Endrocrinología</a></li><li><a>Oncología</a></li><li><a>Gastroenterología</a></li><li><a>Hepatología</a></li><li><a>Hematología</a></li><li><a>Ginecología</a></li><li><a>Obstetricia</a></li><li><a>Pediatría</a></li><li><a>Otorrinolaringología</a></li><li><a>Neumología</a></li><li><a>Cardiología</a></li><li><a>Angiología</a></li><li><a>Ortopedia</a></li><li><a>Urología</a></li><li><a>Dermatología</a></li><li><a>Oftalmología</a></li><li><a>Nefrología</a></li>				    </ul>
+				</div>
+				<button type="button" class="btn btn-default" style="background-color: white"><</button>
+				<button type="button" class="btn btn-default" style="background-color: white">></button>
+			</div>
+		</div>
+		<div class="col-xs-5 hidden-md hidden-xs" style="text-align: right;">
+			<div class="btn-group" role="group" aria-label="...">
+			  <button type="button" class="btn btn-default"><</button>
+			  <button type="button" class="btn btn-default">1</button>
+			  <button type="button" class="btn btn-default">2</button>
+			  <button type="button" class="btn btn-default">3</button>
+			  <button type="button" class="btn btn-default">4</button>
+			  <button type="button" class="btn btn-default">5</button>
+			  <button type="button" class="btn btn-default">></button>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-11">
+			<table class="table" style="background-color:white;border-top:3px solid #3c8dbc;margin-top: 15px">
+        		<tr>
+					<th class="margen_tabla" style="width: 10px">#</th>
+					<th class="margen_tabla">Padecimiento - Sistema Nervioso (32)</th>
+					<th class="margen_tabla">Bibliografia</th>
+					<th class="margen_tabla">Acciones</th>
+                </tr>
+          								<tr>
+							<td class="margen_tabla">1</td>
+							<td class="margen_tabla">
+								Paralisis Supranuclear Progresiva<br>síndrome de Steele-Richardson-Olszewski<br>								
+								
+
+							</td>
+							<td class="margen_tabla"></td>
+							<td class="margen_tabla"><button class="btn btn-xs btn-primary">Informacion</button></td>
+						</tr>
+          										<tr>
+							<td class="margen_tabla">2</td>
+							<td class="margen_tabla">
+								Neurofibromatosis tipo 1<br>Enfermedad de Von Recklinghausen<br>								
+								
+
+							</td>
+							<td class="margen_tabla"></td>
+							<td class="margen_tabla"><button class="btn btn-xs btn-primary">Informacion</button></td>
+						</tr>
+          										<tr>
+							<td class="margen_tabla">3</td>
+							<td class="margen_tabla">
+								Linfoma MALT<br>Linfoma de tejido linfoide asociado a mucosas<br>								
+								
+
+							</td>
+							<td class="margen_tabla"></td>
+							<td class="margen_tabla"><button class="btn btn-xs btn-primary">Informacion</button></td>
+						</tr>
+          				        	</table>
+		</div>
+		
+	</div>
+</section>
+    <!-- Main content -->
+    
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+  <footer class="main-footer">
+    <div class="pull-right hidden-xs">
+      <b>Version</b> 2.4.0
     </div>
-  </header><!-- End Header -->
-
-  <main id="main">
-
-    <!-- ======= About Section ======= -->
-    <!--<section class="about" id="about">
-
-      <div class="container text-center">
-        <h2>
-          About Bell Theme
-        </h2>
-
-        <p>
-          Voluptua scripserit per ad, laudem viderer sit ex. Ex alia corrumpit voluptatibus usu, sed unum convenire id. Ut cum nisl moderatius, per nihil dicant commodo an. Eum tacimates erroribus ad. Atqui feugiat euripidis ea pri, sed veniam tacimates ex. Menandri
-          temporibus an duo.
-        </p>
-
-        <div class="row stats-row">
-          <div class="stats-col text-center col-md-3 col-sm-6">
-            <div class="circle">
-              <span class="stats-no" data-toggle="counter-up">232</span> Satisfied Customers
-            </div>
-          </div>
-
-          <div class="stats-col text-center col-md-3 col-sm-6">
-            <div class="circle">
-              <span class="stats-no" data-toggle="counter-up">79</span> Released Projects
-            </div>
-          </div>
-
-          <div class="stats-col text-center col-md-3 col-sm-6">
-            <div class="circle">
-              <span class="stats-no" data-toggle="counter-up">1,463</span> Hours Of Support
-            </div>
-          </div>
-
-          <div class="stats-col text-center col-md-3 col-sm-6">
-            <div class="circle">
-              <span class="stats-no" data-toggle="counter-up">15</span> Hard Workers
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </section>--><!-- End About Section -->
-
-    <!-- ======= Welcome Section ======= -->
-    <section class="welcome text-center">
-      <h2>
-          Introducción a la Embriología Humana Con Un Enfoque Clínico
-      </h2>
-
-      <p style="margin-left:10px;margin-right: 10px">
-        
-        Taller en linea y sin costo alguno. 
-        <br><br>
-        Dirigido a toda la comunidad estudiantil que ingresara a la carrera de Médico Cirujano y a toda la comunidad que ya forma parte de la carrera y que busque repasar y aclarar diversos temas.  
-        <br><br>
-        Invitan estudiantes del 3er año de Medicina de la FES Iztacala.
-        <br><br>
-
-        El objetivo del taller sera mostrar las bases de la Embriología Humana mediante explicaciones completas y sencillas ademas de manejar un enfoque clínico . Se espera que los conocimientos obtenidos en este taller sean de ayuda para los primeros años de la carrera facilitando la comprensión de diversas materias y para contribuir a una mejor formacion de los estudiantes de medicina. 
-
-      
-        <br><br>
-        Ayudanos a compartir este medio si conoces a alguien que pueda estar interesado en el taller.  
-      </p>
-    </section><!-- End Welcome Section -->
-
-    <!-- ======= Features Section ======= -->
-    <section class="features" id="features">
-
-      <div class="container">
-        <h2 class="text-center">
-        Organización del taller
-        <p style="font-size: .5em;margin-top: 10px">Te mostramos la manera en cómo estara organizado el taller en linea</p>
-      </h2>
-      <div class="row">
-
-        <div class="feature-col col-lg-4 col-xs-12">
-          <div class="card card-block text-center">
-
-            <div>
-              <h3>
-                Material Nuevo cada Sabado a partir de las 11:00 AM
-              </h3>
-              <p>
-                El material sera mostrado en nuestro canal de Youtube y a traves de nuestro sitio web, en donde ademas se incluira material extra.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="feature-col col-lg-4 col-xs-12">
-          <div class="card card-block text-center">
-        
-            <div>
-              <h3>
-                Revisión de casos clínicos  
-              </h3>
-              <p>
-                Despues de cada tema se expondra y se resolvera paso a paso un caso clínico para mostrar las aplicaciones e importancia de la Embriología 
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="feature-col col-lg-4 col-xs-12">
-          <div class="card card-block text-center">
-            
-            <div>
-              <h3>
-                Aclaración de dudas   
-              </h3>
-              <p>
-                Despues de ser expuesto el material los días sabados, se podran dejar preguntas en los videos o enviarlas por mensaje o via correo electrónico. Estas seran expuestas en un video que saldra los martes a las 6:00 PM  
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </section><!-- End Features Section -->
-
-    <!-- ======= Call to Action Section ======= -->
-    <!--<section class="cta">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-9 col-sm-12 text-lg-left text-center">
-            <h2>
-              Call to Action Section
-            </h2>
-
-            <p>
-              Lorem ipsum dolor sit amet, nec ad nisl mandamus imperdiet, ut corpora cotidieque cum. Et brute iracundia his, est eu idque dictas gubergren
-            </p>
-          </div>
-
-          <div class="col-lg-3 col-sm-12 text-lg-right text-center">
-            <a class="btn btn-ghost" href="#">Buy This Theme</a>
-          </div>
-        </div>
-      </div>
-    </section>--><!-- End Call to Action Section -->
-
-    <!-- ======= Portfolio Section ======= -->
-    <!--<section class="portfolio" id="portfolio">
-
-      <div class="container text-center">
-        <h2>
-          Portfolio
-        </h2>
-
-        <p>
-          Voluptua scripserit per ad, laudem viderer sit ex. Ex alia corrumpit voluptatibus usu, sed unum convenire id. Ut cum nisl moderatius, Per nihil dicant commodo an.
-        </p>
-      </div>
-
-      <div class="portfolio-grid">
-        <div class="row">
-          <div class="col-lg-3 col-sm-6 col-xs-12">
-            <div class="card card-block">
-              <a href="assets/img/porf-1.jpg" class="venobox" data-gall="portfolioGallery"><img alt="" src="assets/img/porf-1.jpg">
-                <div class="portfolio-over">
-                  <div>
-                    <h3 class="card-title">
-                      The Dude Rockin'
-                    </h3>
-
-                    <p class="card-text">
-                      Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-sm-6 col-xs-12">
-            <div class="card card-block">
-              <a href="assets/img/porf-2.jpg" class="venobox" data-gall="portfolioGallery"><img alt="" src="assets/img/porf-2.jpg">
-                <div class="portfolio-over">
-                  <div>
-                    <h3 class="card-title">
-                      The Dude Rockin'
-                    </h3>
-
-                    <p class="card-text">
-                      Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-sm-6 col-xs-12">
-            <div class="card card-block">
-              <a href="assets/img/porf-3.jpg" class="venobox" data-gall="portfolioGallery"><img alt="" src="assets/img/porf-3.jpg">
-                <div class="portfolio-over">
-                  <div>
-                    <h3 class="card-title">
-                      The Dude Rockin'
-                    </h3>
-
-                    <p class="card-text">
-                      Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-sm-6 col-xs-12">
-            <div class="card card-block">
-              <a href="assets/img/porf-4.jpg" class="venobox" data-gall="portfolioGallery"><img alt="" src="assets/img/porf-4.jpg">
-                <div class="portfolio-over">
-                  <div>
-                    <h3 class="card-title">
-                      The Dude Rockin'
-                    </h3>
-
-                    <p class="card-text">
-                      Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-3 col-sm-6 col-xs-12">
-            <div class="card card-block">
-              <a href="assets/img/porf-5.jpg" class="venobox" data-gall="portfolioGallery"><img alt="" src="assets/img/porf-5.jpg">
-                <div class="portfolio-over">
-                  <div>
-                    <h3 class="card-title">
-                      The Dude Rockin'
-                    </h3>
-
-                    <p class="card-text">
-                      Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-sm-6 col-xs-12">
-            <div class="card card-block">
-              <a href="assets/img/porf-6.jpg" class="venobox" data-gall="portfolioGallery"><img alt="" src="assets/img/porf-6.jpg">
-                <div class="portfolio-over">
-                  <div>
-                    <h3 class="card-title">
-                      The Dude Rockin'
-                    </h3>
-
-                    <p class="card-text">
-                      Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-sm-6 col-xs-12">
-            <div class="card card-block">
-              <a href="assets/img/porf-7.jpg" class="venobox" data-gall="portfolioGallery"><img alt="" src="assets/img/porf-7.jpg">
-                <div class="portfolio-over">
-                  <div>
-                    <h3 class="card-title">
-                      The Dude Rockin'
-                    </h3>
-
-                    <p class="card-text">
-                      Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-sm-6 col-xs-12">
-            <div class="card card-block">
-              <a href="assets/img/porf-8.jpg" class="venobox" data-gall="portfolioGallery"><img alt="" src="assets/img/porf-8.jpg">
-                <div class="portfolio-over">
-                  <div>
-                    <h3 class="card-title">
-                      The Dude Rockin'
-                    </h3>
-
-                    <p class="card-text">
-                      Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>--><!-- End Portfolio Section -->
-
-    <!-- ======= Team Section ======= -->
-    <!--<section class="team" id="team">
-      <div class="container">
-        <h2 class="text-center">
-          Meet our team
-        </h2>
-
-        <div class="row">
-          <div class="col-sm-3 col-xs-6">
-            <div class="card card-block">
-              <a href="#"><img alt="" class="team-img" src="assets/img/team-1.jpg">
-                <div class="card-title-wrap">
-                  <span class="card-title">Sergio Fez</span> <span class="card-text">Art Director</span>
-                </div>
-
-                <div class="team-over">
-                  <h4 class="hidden-md-down">
-                    Connect with me
-                  </h4>
-
-                  <nav class="social-nav">
-                    <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-envelope"></i></a>
-                  </nav>
-
-                  <p>
-                    Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
-                  </p>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-sm-3 col-xs-6">
-            <div class="card card-block">
-              <a href="#"><img alt="" class="team-img" src="assets/img/team-2.jpg">
-                <div class="card-title-wrap">
-                  <span class="card-title">Sergio Fez</span> <span class="card-text">Art Director</span>
-                </div>
-
-                <div class="team-over">
-                  <h4 class="hidden-md-down">
-                    Connect with me
-                  </h4>
-
-                  <nav class="social-nav">
-                    <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-envelope"></i></a>
-                  </nav>
-
-                  <p>
-                    Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
-                  </p>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-sm-3 col-xs-6">
-            <div class="card card-block">
-              <a href="#"><img alt="" class="team-img" src="assets/img/team-3.jpg">
-                <div class="card-title-wrap">
-                  <span class="card-title">Sergio Fez</span> <span class="card-text">Art Director</span>
-                </div>
-
-                <div class="team-over">
-                  <h4 class="hidden-md-down">
-                    Connect with me
-                  </h4>
-
-                  <nav class="social-nav">
-                    <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-envelope"></i></a>
-                  </nav>
-
-                  <p>
-                    Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
-                  </p>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-sm-3 col-xs-6">
-            <div class="card card-block">
-              <a href="#"><img alt="" class="team-img" src="assets/img/team-4.jpg">
-                <div class="card-title-wrap">
-                  <span class="card-title">Sergio Fez</span> <span class="card-text">Art Director</span>
-                </div>
-
-                <div class="team-over">
-                  <h4 class="hidden-md-down">
-                    Connect with me
-                  </h4>
-
-                  <nav class="social-nav">
-                    <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-envelope"></i></a>
-                  </nav>
-
-                  <p>
-                    Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
-                  </p>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>--><!-- End Team Section -->
-
-    <!-- ======= Contact Section ======= -->
-    <section id="contact">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <h2 class="section-title" style="margin-top:-35px;margin-bottom:25px;">Datos de contacto</h2>
-          </div>
-        </div>
-
-        <div class="row justify-content-center">
-          <div class="col-lg-3 col-md-4">
-            <div class="info" >
-            
-              <div>
-                <i class="fa fa-envelope"></i>
-                <p>guillermoflorestr@gmail.com</p>
-              </div>
-
-              <div>
-                <i class="fa fa-phone"></i>
-                <p>56 10 99 68 74</p>
-              </div>
-
-              <div>
-                <i class="fa fa-map-marker"></i>
-                <p><a>Grupo estudiantil independiente</a></p>
-              </div>
-
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section><!-- End Contact Section -->
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer class="site-footer">
-     <div class="bottom">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-6 col-xs-12 text-lg-left text-center">
-            <p class="copyright-text">
-              © Team Medicina FESI
-            </p>
-            <div class="credits">
-              <!--
-                All the links in the footer should remain intact.
-                You can delete the links only if you purchased the pro version.
-                Licensing information: https://bootstrapmade.com/license/
-                Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Bell
-              -->
-             Designed by <a>Team Medicina FESI</a>
-            </div>
-          </div>
-
-          <div class="col-lg-6 col-xs-12 text-lg-right text-center">
-            
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </footer><!-- End Footer -->
-
-  <a class="scrolltop" href="#"><span class="fa fa-angle-up"></span></a>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/jquery/jquery.min.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/counterup/counterup.min.js"></script>
-  <script src="assets/vendor/tether/js/tether.min.js"></script>
-  <script src="assets/vendor/jquery-sticky/jquery.sticky.js"></script>
-  <script src="assets/vendor/venobox/venobox.min.js"></script>
-  <script src="assets/vendor/lockfixed/jquery.lockfixed.min.js"></script>
-  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-  <script src="assets/vendor/superfish/superfish.min.js"></script>
-  <script src="assets/vendor/hoverIntent/hoverIntent.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
+    <strong>Copyright &copy; 2014-2016 <a href="https://adminlte.io">Almsaeed Studio</a>.</strong> All rights
+    reserved.
+  </footer>  
+
+  <!-- Control Sidebar -->
+    <!-- /.control-sidebar -->
+  <!-- Add the sidebar's background. This div must be placed
+       immediately after the control sidebar -->
+  <div class="control-sidebar-bg"></div>
+</div>
+<!-- ./wrapper -->
+
+<!-- jQuery 3 -->
+
+<!-- SlimScroll -->
+<script src="bower_components/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+<!-- FastClick -->
+<script src="bower_components/fastclick/lib/fastclick.js"></script>
+<!-- AdminLTE App -->
+<script src="dist/js/adminlte.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="dist/js/demo.js"></script>
+<script>
+  $(document).ready(function () {
+    $('.sidebar-menu').tree()
+  })
+</script></body>
 </html>
