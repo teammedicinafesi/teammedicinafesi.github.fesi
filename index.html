@@ -9,6 +9,7 @@
   <meta name="viewport" content="width=device-width">
   <meta name="mobile-web-app-capable" content="yes">
 
+  
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
 <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
 <link rel="stylesheet" href="bower_components/Ionicons/css/ionicons.min.css">
@@ -288,90 +289,116 @@
     <!-- Content Header (Page header) -->
     
     <section class="content">
-	<div class="row">
-		<div class="col-md-11">
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-md-6">
-			<div class="btn-group" role="group">
-				<div class="btn-group" role="group">
-				    <button type="button" class="btn btn-default" style="background-color: white">Todos</button>
-				    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: white">
-				      Sistema
-				      <span class="caret"></span>
-				    </button>
-				    <ul class="dropdown-menu">
-				      	<li><a>Sistema Nervioso</a></li><li><a>Sistema Cardiovascular</a></li><li><a>Sistema Respiratorio</a></li><li><a>Sistema Urinario</a></li><li><a>Sistema Digestivo</a></li><li><a>Sistema Reproductor Femenino</a></li><li><a>Sistema Reproductor Masculino</a></li><li><a>Sistema Hemático</a></li><li><a>Sistema Inmunológico</a></li><li><a>Sistema Tegumentario</a></li><li><a>Sistema OMA</a></li><li><a>Sistema Endocrino</a></li>				    </ul>
-				</div>
-				<div class="btn-group" role="group">
-				    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: white">
-				      Especialidad &nbsp;
-				      <span class="caret"></span>
-				    </button>
-				    <ul class="dropdown-menu">
-				      	<li><a>Neurología</a></li><li><a>Endrocrinología</a></li><li><a>Oncología</a></li><li><a>Gastroenterología</a></li><li><a>Hepatología</a></li><li><a>Hematología</a></li><li><a>Ginecología</a></li><li><a>Obstetricia</a></li><li><a>Pediatría</a></li><li><a>Otorrinolaringología</a></li><li><a>Neumología</a></li><li><a>Cardiología</a></li><li><a>Angiología</a></li><li><a>Ortopedia</a></li><li><a>Urología</a></li><li><a>Dermatología</a></li><li><a>Oftalmología</a></li><li><a>Nefrología</a></li>				    </ul>
-				</div>
-				<button type="button" class="btn btn-default" style="background-color: white"><</button>
-				<button type="button" class="btn btn-default" style="background-color: white">></button>
-			</div>
-		</div>
-		<div class="col-xs-5 hidden-md hidden-xs" style="text-align: right;">
-			<div class="btn-group" role="group" aria-label="...">
-			  <button type="button" class="btn btn-default"><</button>
-			  <button type="button" class="btn btn-default">1</button>
-			  <button type="button" class="btn btn-default">2</button>
-			  <button type="button" class="btn btn-default">3</button>
-			  <button type="button" class="btn btn-default">4</button>
-			  <button type="button" class="btn btn-default">5</button>
-			  <button type="button" class="btn btn-default">></button>
-			</div>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-md-11">
-			<table class="table" style="background-color:white;border-top:3px solid #3c8dbc;margin-top: 15px">
-        		<tr>
-					<th class="margen_tabla" style="width: 10px">#</th>
-					<th class="margen_tabla">Padecimiento - Sistema Nervioso (32)</th>
-					<th class="margen_tabla">Bibliografia</th>
-					<th class="margen_tabla">Acciones</th>
-                </tr>
-          								<tr>
-							<td class="margen_tabla">1</td>
-							<td class="margen_tabla">
-								Paralisis Supranuclear Progresiva<br>síndrome de Steele-Richardson-Olszewski<br>								
-								
+  <div class="row">
+    <div class="col-md-7">
+      <h3>Agregar Padecimiento</h3>
+      <form class="form-horizontal form_nombre_padecimiento">
+            <button type="button" class="btn btn-primary guardar_datos">Aceptar</button>
+            <button type="button" class="btn btn-primary btn_agregar_nombre">+ Añadir nombre</button>
+            <button type="button" class="btn btn-success btn_refresh">Limpiar campos</button>
+            <br>    
+          <div class="input-group" style="margin-top:8px">
+              <input type="text" class="form-control input_nombre_padecimiento focus" placeholder="Nombre del Padecimiento">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-star"></i></span>
+          </div>        
+      </form>
+      <div class="mensaje"></div>
+    </div>
 
-							</td>
-							<td class="margen_tabla"></td>
-							<td class="margen_tabla"><button class="btn btn-xs btn-primary">Informacion</button></td>
-						</tr>
-          										<tr>
-							<td class="margen_tabla">2</td>
-							<td class="margen_tabla">
-								Neurofibromatosis tipo 1<br>Enfermedad de Von Recklinghausen<br>								
-								
-
-							</td>
-							<td class="margen_tabla"></td>
-							<td class="margen_tabla"><button class="btn btn-xs btn-primary">Informacion</button></td>
-						</tr>
-          										<tr>
-							<td class="margen_tabla">3</td>
-							<td class="margen_tabla">
-								Linfoma MALT<br>Linfoma de tejido linfoide asociado a mucosas<br>								
-								
-
-							</td>
-							<td class="margen_tabla"></td>
-							<td class="margen_tabla"><button class="btn btn-xs btn-primary">Informacion</button></td>
-						</tr>
-          				        	</table>
-		</div>
-		
-	</div>
+  </div>
 </section>
+
+
+<script>
+  $(document).ready(function(){
+        $(".input_nombre_padecimiento").focus()
+    })
+
+
+  $(document).on('click','.btn_agregar_nombre',function(){
+    contador = $(".form_nombre_padecimiento").find(".input-group").length
+
+    if (contador <= 2) {
+
+      $(".form_nombre_padecimiento").append(`
+        <div class="input-group groups_limpiar" style='margin-top:5px'>
+            <input type="text" placeholder="Nombre del padecimiento" class='form-control input_nombre_padecimiento'>
+            <span class="input-group-btn">
+              <button class="btn btn-default btn_remover" type="button">
+            <span class='glyphicon glyphicon-remove-circle'>
+
+            </span>
+              </button>
+            </span>
+          </div>
+
+      `)
+      }
+      else
+      {
+        alert('Solo puede agregar 3 nombre diferentes para un mismo padecimiento')
+      }
+    })
+
+
+  $(document).on('click','.btn_remover',function(){
+    $(this).parent().parent().remove()
+    })
+
+
+  $(document).on('click','.btn_refresh',function(){
+    $(".groups_limpiar").remove()
+    $(".focus").val('')
+    $(".focus").focus()
+    $(".mensaje").html('')
+    })
+
+
+  
+
+    $(document).on('click','.guardar_datos',function(){
+        var arreglo   = []
+    
+
+        var caja_nombre = []
+        $(".form_nombre_padecimiento .input-group").each(function(){
+          item = {};
+      name = $(this).find(".input_nombre_padecimiento").val()
+
+      if (name != '') {
+        item ["name"]   = name;
+          caja_nombre.push(item); 
+      }
+
+        
+    });
+    arreglo.push(caja_nombre)
+
+    console.log(arreglo);
+
+      info  = new FormData();
+    ainfo   = JSON.stringify(arreglo);
+
+    info.append('data', ainfo);
+
+        $.ajax({
+      data: info,
+      type: 'POST',
+      url : 'panel_user/padecimientos/process_agregar_padecimiento.php',
+      processData: false, 
+      contentType: false,
+      success: function(data){
+        $(".mensaje").html(data)
+        //Una vez que se haya ejecutado de forma exitosa hacer el código para que muestre esto mismo.
+      }
+    });            
+
+    });
+
+
+
+
+</script>
     <!-- Main content -->
     
     <!-- /.content -->
